@@ -1,17 +1,18 @@
-uuid: 1b525e57-0238-4ac7-9fd8-4d6babe53d0c
+uuid: 9091c301-7e0a-4afd-bd4d-806a401fa7c2
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.tools
   module:
     - content_translation
-    - user
 third_party_settings:
   content_translation:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: user.user
-target_entity_type_id: user
-target_bundle: user
+id: menu_link_content.tools
+target_entity_type_id: menu_link_content
+target_bundle: tools
 default_langcode: site_default
 language_alterable: false

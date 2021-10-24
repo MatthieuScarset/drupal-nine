@@ -1,0 +1,8 @@
+name: "Content"
+type: module
+description: "Import default content.."
+core_version_requirement: ^8 || ^9
+version: VERSION
+package: Menu
+dependencies:
+  - default_content_extra

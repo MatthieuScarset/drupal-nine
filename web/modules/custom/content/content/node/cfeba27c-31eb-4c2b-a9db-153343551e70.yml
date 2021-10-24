@@ -1,0 +1,149 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cfeba27c-31eb-4c2b-a9db-153343551e70
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Page in EN'
+  created:
+    -
+      value: 1635048946
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<p>Nice content.</p>\r\n\r\n<p>Well done Johnny!&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+translations:
+  fr:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Page en FR'
+    created:
+      -
+        value: 1635049222
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    path:
+      -
+        alias: ''
+        langcode: fr
+    content_translation_source:
+      -
+        value: en
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: "<p>Super cool,</p>\r\n\r\n<p>Il est fait beau aujourd'hui.</p>\r\n"
+        format: basic_html
+        summary: ''
+  es:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Pagina en ES'
+    created:
+      -
+        value: 1635049243
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    path:
+      -
+        alias: ''
+        langcode: es
+    content_translation_source:
+      -
+        value: en
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: "<p>Buenas amigos.</p>\r\n\r\n<p>que pasa?</p>\r\n"
+        format: basic_html
+        summary: ''
+  zh-hant:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Page in ZH'
+    created:
+      -
+        value: 1635049267
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    path:
+      -
+        alias: ''
+        langcode: zh-hant
+    content_translation_source:
+      -
+        value: en
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: "<p>Xing Xong</p>\r\n"
+        format: basic_html
+        summary: ''
