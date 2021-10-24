@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 717f3313-b552-4618-9078-0e776bdf119b
+  bundle: main
+  default_langcode: fr
+  depends:
+    66da4359-3d6c-4424-8bd2-ffc15446913d: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Lien en FR'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<current>'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:66da4359-3d6c-4424-8bd2-ffc15446913d'
+  revision_translation_affected:
+    -
+      value: true
+  view_mode:
+    -
+      value: default

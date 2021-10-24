@@ -26,6 +26,9 @@ default:
   sticky:
     -
       value: false
+  revision_translation_affected:
+    -
+      value: true
   path:
     -
       alias: ''
@@ -61,6 +64,9 @@ translations:
     sticky:
       -
         value: false
+    revision_translation_affected:
+      -
+        value: true
     path:
       -
         alias: ''
@@ -95,6 +101,9 @@ translations:
     sticky:
       -
         value: false
+    revision_translation_affected:
+      -
+        value: true
     path:
       -
         alias: ''

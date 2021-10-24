@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 66da4359-3d6c-4424-8bd2-ffc15446913d
+  bundle: main
+  default_langcode: und
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Link with unspecified language'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<current>'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  view_mode:
+    -
+      value: default
